@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+} 
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 40rem;
+}
+
+.bg-carousel-item0{
+    background-image: url('images/carousel-signup.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-carousel-item1{
+    background-image: url('images/carousel-office-design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-carousel-item2{
+    background-image: url('images/white.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.details .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.details .col-lg-4 .expert {
+    width: 20vh;
+    height: 20vh;
+    display: inline-flex;
+    border-radius: 10vh;
+    overflow: hidden;
+}
+
+.details .col-lg-4 .expert img{
+    width: 20vh;
+    height: 20vh;
+}
+
+.details .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.details h2 {
+    font-weight: 400;
+    color: slategray
+}
+
+.details h1 {
+    font-weight: 300;
+    font-size: 4em;
+}
+
+/* featurettes */
+.featurette-divider {
+    margin: 5rem 0; 
+}
+
+.featurette-heading {
+    color: black !important;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.featurette img {
+    width: 100%
+}
